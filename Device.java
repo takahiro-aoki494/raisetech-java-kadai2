@@ -5,7 +5,6 @@ public class Device {
     private final String vendor;
     //機器のタイプ(スイッチ、ルーター等)
     private final String type;
-    //機器の価格
 
     //コントラクター
     public Device(String name, String vendor, String type) {
