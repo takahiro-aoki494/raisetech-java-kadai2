@@ -4,10 +4,10 @@ public class Device {
     //機器のベンダー
     private final String vendor;
     //機器のタイプ(スイッチ、ルーター等)
-    private final String type;
+    private final DevType type;
 
     //コントラクター
-    public Device(String name, String vendor, String type) {
+    public Device(String name, String vendor, DevType type) {
         this.name = name;
         this.vendor = vendor;
         this.type = type;
@@ -22,6 +22,6 @@ public class Device {
     }
 
     public String getType() {
-        return type;
+        return type.getType();
     }
 }
